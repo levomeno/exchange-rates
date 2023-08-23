@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>foreign-exchange-application</artifactId>
+        <groupId>com.foreign.exchange.application</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>exchange-rate-service</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>exchange-rate-domain</module>
+        <module>exchange-rate-application</module>
+        <module>exchange-rate-dataaccess</module>
+        <module>exchange-rate-container</module>
+    </modules>
+
+    <properties>
+    </properties>
+
+</project>
