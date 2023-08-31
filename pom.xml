@@ -54,7 +54,7 @@
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.food.ordering.system</groupId>
+                <groupId>com.foreign.exchange.application</groupId>
                 <artifactId>common-application</artifactId>
                 <version>${project.version}</version>
             </dependency>

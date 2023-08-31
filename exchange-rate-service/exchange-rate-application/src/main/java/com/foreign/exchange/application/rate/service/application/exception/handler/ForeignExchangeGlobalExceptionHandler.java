@@ -1,7 +1,7 @@
 package com.foreign.exchange.application.rate.service.application.exception.handler;
 
-import com.food.ordering.system.application.handler.ErrorDTO;
-import com.food.ordering.system.application.handler.GlobalExceptionHandler;
+import com.foreign.exchange.application.application.handler.ErrorDTO;
+import com.foreign.exchange.application.application.handler.GlobalExceptionHandler;
 import com.foreign.exchange.application.rate.service.domain.exception.ConversionDomainException;
 import com.foreign.exchange.application.rate.service.domain.exception.ConversionNotFoundException;
 import lombok.extern.slf4j.Slf4j;
